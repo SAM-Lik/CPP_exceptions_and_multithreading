@@ -73,7 +73,7 @@ typedef struct {
  * @param code Код ошибки
  * @return Строка с описанием ошибки (не NULL)
  */
-//[[nodiscard]] 
+[[nodiscard]] 
 const char* get_error_string(result_code_t code);
 
 /**
@@ -86,7 +86,7 @@ const char* get_error_string(result_code_t code);
  * @param b Делитель
  * @return result_t с результатом деления (a / b) или ошибкой
  */
-//[[nodiscard]] 
+[[nodiscard]] 
 result_t divide_integers(int a, int b);
 
 /**
@@ -104,7 +104,7 @@ result_t divide_integers(int a, int b);
  * @note Вызывающий код должен освободить буфер через free()
  * @note При ошибке буфер остается неинициализированным
  */
-//[[nodiscard]] 
+[[nodiscard]] 
 result_t open_and_read_file(const char* filename, char** buffer, size_t* size);
 
 /**

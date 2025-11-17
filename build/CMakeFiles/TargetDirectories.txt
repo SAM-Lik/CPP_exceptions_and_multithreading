@@ -1,0 +1,7 @@
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/error_codes_demo.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/errno_demo.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/task1_1.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/stack_unwinding_demo.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/safe_container.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/edit_cache.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/rebuild_cache.dir
