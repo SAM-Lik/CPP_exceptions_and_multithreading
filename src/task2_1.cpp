@@ -3,10 +3,11 @@
 #include <vector>
 #include <chrono>
 #include <cassert>
+#include <atomic>
 
 class Counter {
 private:
-    int count; //TODO:: make it atomic
+    std::atomic<int> count; //TODO:: make it atomic
     int iters;
 public:
     Counter(int num_iters) : count(0), iters(num_iters) {}
@@ -33,7 +34,7 @@ void worker(Counter& counter, int thread_id) {
 int main() {
     Counter counter(100);
     std::vector<std::thread> threads;
-    size_t number_of_threads = std::thread::hardware_concurrency(); // get available number of hardware threads here
+    size_t number_of_threads = 20; //std::thread::hardware_concurrency(); // get available number of hardware threads here
     std::cout<<"Number of hardware threads: "<< number_of_threads << std::endl;
 
     for (size_t i = 0; i < number_of_threads; i++) {

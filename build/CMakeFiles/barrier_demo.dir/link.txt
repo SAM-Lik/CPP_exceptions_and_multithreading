@@ -1,0 +1,1 @@
+/usr/bin/g++  -Wall -g CMakeFiles/barrier_demo.dir/src/multithreading/std_barrier_demo.cpp.o -o debug/barrier_demo 

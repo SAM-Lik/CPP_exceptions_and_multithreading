@@ -1,0 +1,1 @@
+/usr/bin/g++  -Wall -g CMakeFiles/cond_vars.dir/src/multithreading/std_cond_var.cpp.o -o debug/cond_vars 

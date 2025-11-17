@@ -1,0 +1,1 @@
+/usr/bin/g++  -Wall -g CMakeFiles/async_demo.dir/src/multithreading/std_async_future_sum.cpp.o -o debug/async_demo 

@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gdb_workshop",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "async_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-async_demo-Debug-9167feadc366763ff502.json",
+					"name" : "async_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "barrier_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-barrier_demo-Debug-728ff54f346f0cb0eaeb.json",
+					"name" : "barrier_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cond_vars::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cond_vars-Debug-0374473a6b583874f6aa.json",
+					"name" : "cond_vars",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "latch_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-latch_demo-Debug-1d76660135bc228e5375.json",
+					"name" : "latch_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mutex_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mutex_demo-Debug-707f8a3415c97c00573f.json",
+					"name" : "mutex_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_jthread_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_jthread_demo-Debug-ce218f3a26b688846f12.json",
+					"name" : "std_jthread_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "std_thread_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-std_thread_demo-Debug-c25fb9e0957e0ef9ec5d.json",
+					"name" : "std_thread_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task2_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task2_1-Debug-975fbe2d79c5b3fc4f53.json",
+					"name" : "task2_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task2_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task2_2-Debug-e2cdfab808bed91c2b51.json",
+					"name" : "task2_2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build",
+		"source" : "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

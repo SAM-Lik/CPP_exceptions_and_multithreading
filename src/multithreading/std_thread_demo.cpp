@@ -47,7 +47,7 @@ int main() {
         std::cout << "Lambda thread!" << std::endl;
     });
 
-    t1.join(); // TODO: попробуйте забыть вызвать join, что будет?
+    t1.detach(); // TODO: попробуйте забыть вызвать join, что будет?
                // а если сделать detach() вместо join() ?
                
     t2.join();

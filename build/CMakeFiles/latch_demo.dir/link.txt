@@ -1,0 +1,1 @@
+/usr/bin/g++  -Wall -g CMakeFiles/latch_demo.dir/src/multithreading/std_latch_demo.cpp.o -o debug/latch_demo 

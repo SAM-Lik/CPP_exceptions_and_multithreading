@@ -1,0 +1,1 @@
+/usr/bin/g++  -Wall -g CMakeFiles/std_thread_demo.dir/src/multithreading/std_thread_demo.cpp.o -o debug/std_thread_demo 

@@ -24,10 +24,10 @@ void cancellable_task(std::stop_token stoken) {
 }
 
 int main() {
-    std::jthread jt2(non_cancellable_task);
+    // std::jthread jt2(non_cancellable_task);
 
     std::jthread jt1(cancellable_task);
-    std::this_thread::sleep_for(std::chrono::seconds(2));
+    std::this_thread::sleep_for(std::chrono::seconds(1));
     jt1.request_stop();
 
     return 0;

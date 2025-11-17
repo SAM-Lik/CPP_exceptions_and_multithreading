@@ -1,0 +1,1 @@
+/usr/bin/g++  -Wall -g CMakeFiles/mutex_demo.dir/src/multithreading/std_mutex_example.cpp.o -o debug/mutex_demo 

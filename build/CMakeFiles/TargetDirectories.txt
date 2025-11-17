@@ -1,0 +1,11 @@
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/std_thread_demo.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/std_jthread_demo.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/task2_1.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/task2_2.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/mutex_demo.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/cond_vars.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/latch_demo.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/barrier_demo.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/async_demo.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/edit_cache.dir
+/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build/CMakeFiles/rebuild_cache.dir

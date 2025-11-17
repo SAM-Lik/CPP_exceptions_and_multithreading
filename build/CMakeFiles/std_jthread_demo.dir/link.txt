@@ -1,0 +1,1 @@
+/usr/bin/g++  -Wall -g CMakeFiles/std_jthread_demo.dir/src/multithreading/std_jthread_demo.cpp.o -o debug/std_jthread_demo 

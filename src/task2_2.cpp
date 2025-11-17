@@ -3,16 +3,19 @@
 #include <vector>
 #include <chrono>
 #include <cassert>
+#include <mutex>
 
 class Counter {
 private:
     int count; 
     int iters;
+    std::mutex _mutex;
     //TODO:: use mutex to fix data race in increment
 public:
     Counter(int num_iters) : count(0), iters(num_iters) {}
     
     void inc() { 
+        std::lock_guard <std::mutex> guard(_mutex);
         //TODO:: use std::lock_guard (or shared lock) to protect increment
         for (int i = 0; i < iters; i++) {
             count++; 
@@ -22,7 +25,11 @@ public:
         }
     }
     
-    int get_count() const { return count; } //TODO:: add mutex here too
+    int get_count() //const
+    { 
+        std::lock_guard <std::mutex> guard(_mutex);
+        return count; 
+    } //TODO:: add mutex here too
     int get_iters() const { return iters; }
 };
 
@@ -35,7 +42,7 @@ void worker(Counter& counter, int thread_id) {
 int main() {
     Counter counter(100);
     std::vector<std::thread> threads;
-    size_t number_of_threads = std::thread::hardware_concurrency(); // get available number of hardware threads here
+    size_t number_of_threads = 20; //std::thread::hardware_concurrency(); // get available number of hardware threads here
     std::cout<<"Number of hardware threads: "<< number_of_threads << std::endl;
 
     for (size_t i = 0; i < number_of_threads; i++) {

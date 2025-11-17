@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build",
+  "command": "/usr/bin/g++    -Wall -g -std=gnu++20 -o CMakeFiles/std_thread_demo.dir/src/multithreading/std_thread_demo.cpp.o -c /home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/multithreading/std_thread_demo.cpp",
+  "file": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/multithreading/std_thread_demo.cpp",
+  "output": "CMakeFiles/std_thread_demo.dir/src/multithreading/std_thread_demo.cpp.o"
+},
+{
+  "directory": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build",
+  "command": "/usr/bin/g++    -Wall -g -std=gnu++20 -o CMakeFiles/std_jthread_demo.dir/src/multithreading/std_jthread_demo.cpp.o -c /home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/multithreading/std_jthread_demo.cpp",
+  "file": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/multithreading/std_jthread_demo.cpp",
+  "output": "CMakeFiles/std_jthread_demo.dir/src/multithreading/std_jthread_demo.cpp.o"
+},
+{
+  "directory": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build",
+  "command": "/usr/bin/g++    -Wall -g -std=gnu++20 -o CMakeFiles/task2_1.dir/src/task2_1.cpp.o -c /home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/task2_1.cpp",
+  "file": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/task2_1.cpp",
+  "output": "CMakeFiles/task2_1.dir/src/task2_1.cpp.o"
+},
+{
+  "directory": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build",
+  "command": "/usr/bin/g++    -Wall -g -std=gnu++20 -o CMakeFiles/task2_2.dir/src/task2_2.cpp.o -c /home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/task2_2.cpp",
+  "file": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/task2_2.cpp",
+  "output": "CMakeFiles/task2_2.dir/src/task2_2.cpp.o"
+},
+{
+  "directory": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build",
+  "command": "/usr/bin/g++    -Wall -g -std=gnu++20 -o CMakeFiles/mutex_demo.dir/src/multithreading/std_mutex_example.cpp.o -c /home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/multithreading/std_mutex_example.cpp",
+  "file": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/multithreading/std_mutex_example.cpp",
+  "output": "CMakeFiles/mutex_demo.dir/src/multithreading/std_mutex_example.cpp.o"
+},
+{
+  "directory": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build",
+  "command": "/usr/bin/g++    -Wall -g -std=gnu++20 -o CMakeFiles/cond_vars.dir/src/multithreading/std_cond_var.cpp.o -c /home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/multithreading/std_cond_var.cpp",
+  "file": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/multithreading/std_cond_var.cpp",
+  "output": "CMakeFiles/cond_vars.dir/src/multithreading/std_cond_var.cpp.o"
+},
+{
+  "directory": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build",
+  "command": "/usr/bin/g++    -Wall -g -std=gnu++20 -o CMakeFiles/latch_demo.dir/src/multithreading/std_latch_demo.cpp.o -c /home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/multithreading/std_latch_demo.cpp",
+  "file": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/multithreading/std_latch_demo.cpp",
+  "output": "CMakeFiles/latch_demo.dir/src/multithreading/std_latch_demo.cpp.o"
+},
+{
+  "directory": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build",
+  "command": "/usr/bin/g++    -Wall -g -std=gnu++20 -o CMakeFiles/barrier_demo.dir/src/multithreading/std_barrier_demo.cpp.o -c /home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/multithreading/std_barrier_demo.cpp",
+  "file": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/multithreading/std_barrier_demo.cpp",
+  "output": "CMakeFiles/barrier_demo.dir/src/multithreading/std_barrier_demo.cpp.o"
+},
+{
+  "directory": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/build",
+  "command": "/usr/bin/g++    -Wall -g -std=gnu++20 -o CMakeFiles/async_demo.dir/src/multithreading/std_async_future_sum.cpp.o -c /home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/multithreading/std_async_future_sum.cpp",
+  "file": "/home/dpouser/Ocean/25_11_17/CPP_exceptions_and_multithreading/src/multithreading/std_async_future_sum.cpp",
+  "output": "CMakeFiles/async_demo.dir/src/multithreading/std_async_future_sum.cpp.o"
+}
+]
